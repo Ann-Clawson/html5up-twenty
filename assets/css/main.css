@@ -111,7 +111,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #83bbd3;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -1813,7 +1813,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #83bbd3;
 		}
 
 	input[type="text"],
@@ -2168,8 +2168,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #83bbd3;
+			border-color: #83bbd3;
 			color: #fff !important;
 		}
 
@@ -2178,8 +2178,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: rgba(188, 202, 206, 0.15) !important;
+				border-color: rgba(188, 202, 206, 0.15) !important;
 			}
 
 		input[type="button"].fit,
@@ -2212,7 +2212,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #83bbd3;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2235,7 +2235,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color:#83bbd3 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2315,6 +2315,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
+			background-color: rgba(52, 27, 43, 0.5);
 			font-weight: 900;
 			margin: 0;
 		}
@@ -2474,7 +2475,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #83bbd3;
 				color: #fff;
 			}
 
@@ -2527,10 +2528,12 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");*/
+		background-image: url(../../images/_banner.jpg);
+		background-size: cover;
+		/*background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover;*/
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
