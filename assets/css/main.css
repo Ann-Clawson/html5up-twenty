@@ -2539,6 +2539,8 @@ input, select, textarea {
 		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");*/
 		background-image: url(../../images/_banner.jpg);
 		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 		/*background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;*/
@@ -2820,7 +2822,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: cover;
 			}
 
 		/* Main */
@@ -3275,12 +3277,15 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				background-size: cover;
+				background-position: left;
+				background-color: #645862;
 				padding: 6em 0;
 			}
 
 				#banner .inner {
-					background: none;
+					padding: 1em !important;
+					background-color: rgba(52, 27, 43, 0.5)
 					display: block;
 					padding: 0 1.5em;
 				}
